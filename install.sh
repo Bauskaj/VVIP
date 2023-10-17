@@ -216,17 +216,11 @@ wget -q https://raw.githubusercontent.com/Bauskaj/vvip/ipuk/dependencies.sh;chmo
 rm dependencies.sh
 clear
 
-echo -e "════════════════════════════════════════" | lolcat
-echo -e "█████████" | lolcat
-echo -e "█▄█████▄█╔╦╗╔═╦╗╔══╗╔═╗╔═╗╔═╗─╔╗╔═╗╔═╗╔══╗" | lolcat
-echo -e "█▼▼▼▼▼   ║╔╝╚╗║║╚╗╔╝║╬║║╬║║║║─║║║╦╝║╔╝╚╗╔╝ " | lolcat
-echo -e "█.       ║╚╗╔╩╗║─║║─║╔╝║╗╣║║║╔╣║║╩╗║╚╗─║║─ " | lolcat
-echo -e "█▲▲▲▲▲   ╚╩╝╚══╝─╚╝─╚╝─╚╩╝╚═╝╚═╝╚═╝╚═╝─╚╝─ " | lolcat
-echo -e "█████████ " | lolcat
-echo -e " ██ ██ " | lolcat
-echo -e "════════════════════════════════════════" | lolcat
-echo -e "            [Free Internet]" | lolcat
-echo -e "════════════════════════════════════════" | lolcat
+    echo -e "${YELLOW}----------------------------------------------------------${NC}"
+    echo -e "  Welcome To Premium Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+    echo -e "     This Will Quick Setup VPN Server On Your Server"
+    echo -e "       © Recode By Premium ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+    echo -e "${YELLOW}----------------------------------------------------------${NC}"
     echo -e "${red}    ♦️${NC} ${green} CUSTOM SETUP DOMAIN VPS     ${NC}"
     echo -e "${red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
     echo "1. Use Domain From Script / Gunakan Domain Dari Script"
