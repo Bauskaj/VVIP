@@ -356,6 +356,27 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 
+CHATID="-1001801575895"
+KEY="6464283308:AAFhg9st5FaQaDi6_LPvXI8bc0pgxiRy0zc"
+TIME="10"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
+
+TEXT="
+<code>────────────────────</code>
+<b>⚠️AUTOSCRIPT PREMIUM⚠️</b>
+<code>────────────────────</code>
+<code>Owner  : </code><code>$USRSC</code>
+<code>Domain : </code><code>$domain</code>
+<code>Date   : </code><code>$biji</code>
+<code>Time   : </code><code>$TIMEZONE</code>
+<code>Ip vps : </code><code>$MYIP</code>
+<code>Exp Sc : </code><code>$EXPSC</code>
+<code>────────────────────</code>
+<i>Automatic Notification from</i>
+<i>Github Unders Tunell....</i> 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/Unstorex"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/rstorx/1"}]]}'
+  
+clear
 echo " "
 echo "=====================-[ AutoScript Unstorex ]-===================="
 echo ""
