@@ -369,6 +369,8 @@ TEXT="
 <i>Automatic Notification from</i>
 <i>Github Unders Tunell....</i> 
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/Unstorex"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/rstorx/1"}]]}'
+
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT2&parse_mode=html" $URL
   
 clear
 echo " "
